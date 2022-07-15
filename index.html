@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <style>
+        p{
+            font-weight: bold;
+            font-style:oblique;
+        }
+        .texto_b{
+            font-style: normal;
+            color: blue;
+        }
+    #especial{
+            color: darkslategrey;
+            font-style: inherit;
+            font-size: large;
+}
+    </style>
+    <!--title es el contenido que mostrará la pestaña del navegador-->
+<Title>Desafío CV</Title>
+<!--link será para hacer un hipervinculo con una imagen y/o texto, rel detalla la dirección del link, 
+    size determina una dimensión cuadratica de la imagen, 
+    href es la dirección en la cual se encuentra-->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/antorcha.png">
+
+</head>
+<body>
+    <!--h1 es el primer heading de un maximo de 6-->
+    <h1 id="titulo">Curriculum vitae</h1>
+<!--img es el tg para insertar una imagen, src es el directorio de la imagen, con width regulo el tamaño en px, alt es para personas no videntes es una descripción de la imagen-->
+    <img src="assets/img/Cristopher foto.jpeg" width="200" alt="Cristopher San Martín"/>
+    <h2 id="especial">Cristopher San Martín</h2>
+    <div>
+    <h3>Resumen de mi</h3>
+    <!--p es para escribir un parrafo o textos extensos-->
+    <!--esta fomra es la menos recomendada para editar los distintos elementos de la pagina-->
+    <P style="color: #292929; font-size: 12px; line-height: 1;">        Me llamo Cristopher San Martín pero mis amigos me dicen "Rojo", tengo 32 años y vivo en Santiago. 
+        Actualmente me dedico de manera profesional a tatuar, sin embargo siempre me ha gustado la tecnología y las ciencias, estudié ingeniería en mecánica, con lo cual
+        me asocie a la programación desde un modo muy periférico, por lo mismo, decidí dar el paso al mundo de la programación con este curso. 
+        Mi principal motivación es la de aprender y complementar conocimiento.
+    </P>
+    </div>
+    <div>
+    <h3>Datos personales</h3>
+    <!--ul es una lista no ordenada-->
+    <ul>
+        <!--li es para el o los elementos contenidos en la lista-->
+        <li>Nombre completo: Cristopher Raúl Elías San Martín Pardo</li>
+        <li>Lugar de nacimiento: Santiago de Chile</li>
+        <li>Fecha de nacimiento: 03/10/1989</li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/cristopher-san-mart%C3%ADn-pardo-b4009a240/"><img src="assets/img/linkedin-logo.png" width="70" alt="linkedin"></a></li>
+    </ul>
+    </div>
+    <div>
+    <h3>Formación academica</h3>
+    <!--ol es una lista ordenada, el atributo de style permite definir el estilo con que se estructurará ese orden-->
+    <ol style="list-style-type: upper-roman;">
+        <li>ingeniería en mecánica (incompleta): UTEM</li>
+        <li>ingeniería en ejecución mecánica (incompleta): USACH</li>
+        <li>Full sack JavaScript (actualmente en curso): Desafio_LATAM</li>
+    </ol>
+    </div>
+    <div>
+    <h3>Oficio</h3>
+    <p class="texto_b">Actualmente me desempeño como tatuador profesional en Santiago centro</p>
+    <ul>
+        <li>Instagram del local<br>
+            <a target="_blank" href="https://www.instagram.com/mambanegra_tattoo_studio/"><img src="assets/img/instagram logo.png" width="30" alt="Instagram"></a></li>
+        <li>Instagram personal<br>
+            <a target="_blank" href="https://www.instagram.com/prometeo.tatuajes/"><img src="assets/img/instagram logo.png" width="30" alt="Instagram"></a></li>
+        <li>Correo<br>
+            <a href="mailto:prometeo.tatuajes@gmail.com"><img src="assets/img/gmail logo.png" width="30" alt="Gmail"></a></li>
+    </ul>
+    </div>
+    <div>
+        <h3>Hobbies</h3>
+        <ul>
+           <li>Kickboxing y MMA <br>
+               <img src="assets/img/kb.jfif" width="100" alt="kickboxing"></li><br>
+           <li>Tocar bajo<br>
+               <img src="assets/img/bass.jfif" width="100" alt="bajo"></li><br>
+           <li>Astronomo aficionado<br>
+               <img src="assets/img/astroturismo.JPG" width="200" alt="Astronomo aficionado"></li><br>
+        </ul>   
+    </div>
+
+
+
+
+<!--footer es un pie de página-->
+    <footer>
+        <a href="#titulo">Ir arriba</a><br>
+        <a href="mailto:smp.cristopher@gmail.com">Correo personal</a>
+     </footer>
+</body>
+</html>
